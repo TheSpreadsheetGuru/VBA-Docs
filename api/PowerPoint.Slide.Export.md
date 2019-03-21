@@ -50,7 +50,7 @@ This example exports slide three in the active presentation to disk in the JPEG 
 ```vb
 With Application.ActivePresentation.Slides(3)
     .Export "c:\my documents\Graphic Format\" & _
-        "Slide 3 of Annual Sales", "JPG"
+        "Slide 3 of Annual Sales.jpg", "JPG"
 End With
 ```
 
